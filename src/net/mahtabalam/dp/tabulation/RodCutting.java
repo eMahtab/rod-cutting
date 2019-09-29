@@ -11,7 +11,6 @@ public class RodCutting {
 	}
 
 	public int solve() {
-		 
 		for (int i = 1; i <= prices.length; i++) {
 			for (int j = 1; j <= rodLength; j++) {
 				if (i > j) {
